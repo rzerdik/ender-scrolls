@@ -1,0 +1,8 @@
+{
+  "itemGroup.teleportation.all": "Teleport Scrolls",
+
+  "item.teleportation.teleport_scroll": "Teleport Scroll",
+  "item.teleportation.empty_teleport_scroll": "Empty Teleport Scroll",
+
+  "block.teleportation.notary_table": "Notary Table"
+}

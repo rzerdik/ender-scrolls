@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing=north": {
+      "model": "teleportation:block/notary_table"
+    },
+    "facing=east": {
+      "model": "teleportation:block/notary_table",
+      "y": 90
+    },
+    "facing=south": {
+      "model": "teleportation:block/notary_table",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "teleportation:block/notary_table",
+      "y": 270
+    }
+  }
+}
