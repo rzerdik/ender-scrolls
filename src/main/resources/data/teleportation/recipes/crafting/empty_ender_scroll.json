@@ -1,6 +1,6 @@
 {
   "type": "minecraft:crafting_shaped",
-  "group": "empty_teleport_scroll",
+  "group": "empty_ender_scroll",
   "pattern": [
     "PSP",
     "POP",
@@ -18,6 +18,6 @@
     }
   },
   "result": {
-    "item": "teleportation:empty_teleport_scroll"
+    "item": "teleportation:empty_ender_scroll"
   }
 }

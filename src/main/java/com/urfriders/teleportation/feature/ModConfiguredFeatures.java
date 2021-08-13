@@ -17,7 +17,7 @@ public class ModConfiguredFeatures {
     public static final ConfiguredFeature<?, ?> END_STONES = ModFeatures.END_STONE.configure(new EndStoneFeatureConfig(new SimpleBlockStateProvider(ModBlocks.NOTARY_TABLE.getDefaultState())))
             .decorate(Decorator.HEIGHTMAP.configure(new HeightmapDecoratorConfig(Heightmap.Type.OCEAN_FLOOR_WG)))
             .spreadHorizontally()
-            .applyChance(5);
+            .applyChance(1);
 
     public static void registerConfiguredFeatures() {
         Registry.register(BuiltinRegistries.CONFIGURED_FEATURE, END_STONES_REGISTRY_KEY.getValue(), END_STONES);
