@@ -1,7 +1,5 @@
 # Ender Scrolls
 
----
-
 **Ender Scrolls** is a mod extending the traveling possibilities by creating teleportation item.
 
 This teleportation item is called "Ender Scroll".
@@ -10,12 +8,8 @@ When used, Ender Scroll destroys itself making it one-time use.
 
 # Screenshots
 
----
-
 _TBA_
 
 # License
-
----
 
 _TBA_
