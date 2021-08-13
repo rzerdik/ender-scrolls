@@ -1,16 +1,16 @@
 package com.urfriders.teleportation.item;
 
-import com.urfriders.teleportation.TeleportScrolls;
+import com.urfriders.teleportation.EnderScrolls;
 import net.minecraft.item.Item;
 import net.minecraft.util.Identifier;
 import net.minecraft.util.registry.Registry;
 
 public class ModItems {
-    public static final Item TELEPORT_SCROLL = new TeleportScrollItem(1);
-    public static final Item EMPTY_TELEPORT_SCROLL = new EmptyTeleportScrollItem(8);
+    public static final Item ENDER_SCROLL = new EnderScrollItem(1);
+    public static final Item EMPTY_ENDER_SCROLL = new EmptyEnderScrollItem(8);
 
     public static void registerItems() {
-        Registry.register(Registry.ITEM, new Identifier(TeleportScrolls.MOD_ID, "teleport_scroll"), TELEPORT_SCROLL);
-        Registry.register(Registry.ITEM, new Identifier(TeleportScrolls.MOD_ID, "empty_teleport_scroll"), EMPTY_TELEPORT_SCROLL);
+        Registry.register(Registry.ITEM, new Identifier(EnderScrolls.MOD_ID, "ender_scroll"), ENDER_SCROLL);
+        Registry.register(Registry.ITEM, new Identifier(EnderScrolls.MOD_ID, "empty_ender_scroll"), EMPTY_ENDER_SCROLL);
     }
 }

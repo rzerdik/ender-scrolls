@@ -1,7 +1,7 @@
 {
   "replace": false,
   "values": [
-    "teleportation:empty_teleport_scroll",
-    "teleportation:teleport_scroll"
+    "teleportation:empty_ender_scroll",
+    "teleportation:ender_scroll"
   ]
 }

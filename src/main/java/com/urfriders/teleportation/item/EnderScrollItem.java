@@ -9,9 +9,9 @@ import net.minecraft.util.TypedActionResult;
 import net.minecraft.world.World;
 import net.minecraft.sound.SoundEvents;
 
-public class TeleportScrollItem extends BaseItem {
+public class EnderScrollItem extends BaseItem {
 
-    public TeleportScrollItem(int maxStackSize) {
+    public EnderScrollItem(int maxStackSize) {
         super(maxStackSize);
     }
 

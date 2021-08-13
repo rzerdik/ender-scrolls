@@ -11,9 +11,9 @@ import net.minecraft.util.Hand;
 import net.minecraft.util.TypedActionResult;
 import net.minecraft.world.World;
 
-public class EmptyTeleportScrollItem extends BaseItem {
+public class EmptyEnderScrollItem extends BaseItem {
 
-    public EmptyTeleportScrollItem(int maxStackSize) {
+    public EmptyEnderScrollItem(int maxStackSize) {
         super(maxStackSize);
     }
 
@@ -32,7 +32,7 @@ public class EmptyTeleportScrollItem extends BaseItem {
             nbtDisplay.put("Lore", nbtLore);
             nbt.put("display", nbtDisplay);
 
-            var itemStack = new ItemStack(ModItems.TELEPORT_SCROLL, 1);
+            var itemStack = new ItemStack(ModItems.ENDER_SCROLL, 1);
             itemStack.setNbt(nbt);
 
             playerEntity.playSound(SoundEvents.ENTITY_ENDER_EYE_DEATH, SoundCategory.PLAYERS, 1, 1);

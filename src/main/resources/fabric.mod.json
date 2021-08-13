@@ -2,7 +2,7 @@
   "schemaVersion": 1,
   "id": "teleportation",
   "version": "${version}",
-  "name": "Teleport Scrolls",
+  "name": "Ender Scrolls",
   "description": "Nothing here.",
   "authors": [
     "Me!"
@@ -12,7 +12,7 @@
   "environment": "*",
   "entrypoints": {
     "main": [
-      "com.urfriders.teleportation.TeleportScrolls"
+      "com.urfriders.teleportation.EnderScrolls"
     ]
   },
   "mixins": [

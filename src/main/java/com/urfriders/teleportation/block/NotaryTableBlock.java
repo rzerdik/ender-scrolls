@@ -1,6 +1,6 @@
 package com.urfriders.teleportation.block;
 
-import com.urfriders.teleportation.TeleportScrolls;
+import com.urfriders.teleportation.EnderScrolls;
 import net.fabricmc.fabric.api.object.builder.v1.block.FabricBlockSettings;
 import net.minecraft.block.*;
 import net.minecraft.item.ItemPlacementContext;
@@ -13,7 +13,7 @@ import net.minecraft.util.Identifier;
 import net.minecraft.util.math.Direction;
 
 public class NotaryTableBlock extends Block {
-    public static final Identifier ID = new Identifier(TeleportScrolls.MOD_ID, "notary_table");
+    public static final Identifier ID = new Identifier(EnderScrolls.MOD_ID, "notary_table");
 
     public static final DirectionProperty FACING = HorizontalFacingBlock.FACING;
 

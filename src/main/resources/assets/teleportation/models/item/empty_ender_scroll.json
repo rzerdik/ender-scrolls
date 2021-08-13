@@ -1,6 +1,6 @@
 {
     "parent": "item/generated",
     "textures": {
-        "layer0": "teleportation:item/teleport_scroll"
+        "layer0": "teleportation:item/empty_ender_scroll"
     }
 }

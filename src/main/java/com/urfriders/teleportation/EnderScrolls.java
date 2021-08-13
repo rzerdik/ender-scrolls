@@ -8,7 +8,7 @@ import com.urfriders.teleportation.item.ModItems;
 import com.urfriders.teleportation.screen.ModScreens;
 import net.fabricmc.api.ModInitializer;
 
-public class TeleportScrolls implements ModInitializer {
+public class EnderScrolls implements ModInitializer {
 	public static final String MOD_ID = "teleportation";
 
 	@Override
