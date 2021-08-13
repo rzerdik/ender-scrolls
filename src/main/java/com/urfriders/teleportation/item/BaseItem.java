@@ -6,14 +6,14 @@ import net.minecraft.item.Item;
 public class BaseItem extends Item {
 
     public BaseItem() {
-        this(new FabricItemSettings().group(ModItemGroup.ALL));
+        this(new FabricItemSettings().group(ModItemGroup.ITEMS));
     }
 
     public BaseItem(int maxStackSize) {
-        this(new FabricItemSettings().group(ModItemGroup.ALL).maxCount(maxStackSize));
+        this(new FabricItemSettings().group(ModItemGroup.ITEMS).maxCount(maxStackSize));
     }
 
     public BaseItem(Settings settings) {
-        super(settings.group(ModItemGroup.ALL));
+        super(settings.group(ModItemGroup.ITEMS));
     }
 }

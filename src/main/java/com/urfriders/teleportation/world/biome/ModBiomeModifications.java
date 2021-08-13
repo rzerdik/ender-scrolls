@@ -7,6 +7,6 @@ import net.minecraft.world.gen.GenerationStep;
 
 public class ModBiomeModifications {
     public static void addFeatures() {
-        BiomeModifications.addFeature(BiomeSelectors.all(), GenerationStep.Feature.UNDERGROUND_ORES, ModConfiguredFeatures.END_STONES_REGISTRY_KEY);
+        BiomeModifications.addFeature(BiomeSelectors.foundInTheEnd(), GenerationStep.Feature.UNDERGROUND_ORES, ModConfiguredFeatures.END_TOTEM_REGISTRY_KEY);
     }
 }

@@ -8,7 +8,7 @@ import net.minecraft.item.ItemGroup;
 
 public class BaseBlockItem extends BlockItem {
     public BaseBlockItem(Block block) {
-        super(block, new FabricItemSettings().group(ModItemGroup.ALL));
+        super(block, new FabricItemSettings().group(ModItemGroup.BLOCKS));
     }
 
     public BaseBlockItem(Block block, ItemGroup itemGroup) {

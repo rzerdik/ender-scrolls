@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing=north": {
+      "model": "teleportation:block/end_totem"
+    },
+    "facing=east": {
+      "model": "teleportation:block/end_totem",
+      "y": 90
+    },
+    "facing=south": {
+      "model": "teleportation:block/end_totem",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "teleportation:block/end_totem",
+      "y": 270
+    }
+  }
+}

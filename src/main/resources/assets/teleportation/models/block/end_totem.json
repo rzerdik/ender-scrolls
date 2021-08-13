@@ -1,0 +1,12 @@
+{
+  "parent": "block/cube_all",
+  "textures": {
+    "particle": "minecraft:block/end_stone",
+    "up": "teleportation:block/end_totem",
+    "down": "teleportation:block/end_totem",
+    "north": "teleportation:block/end_totem",
+    "south": "teleportation:block/end_totem",
+    "east": "teleportation:block/end_totem",
+    "west": "teleportation:block/end_totem"
+  }
+}

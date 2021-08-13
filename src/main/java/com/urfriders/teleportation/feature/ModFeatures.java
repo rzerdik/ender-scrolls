@@ -4,9 +4,9 @@ import net.minecraft.util.registry.Registry;
 import net.minecraft.world.gen.feature.Feature;
 
 public class ModFeatures {
-    public static final Feature<EndStoneFeatureConfig> END_STONE = new EndStoneFeature(EndStoneFeatureConfig.CODEC);
+    public static final Feature<EndTotemFeatureConfig> END_TOTEM = new EndTotemFeature(EndTotemFeatureConfig.CODEC);
 
     public static void registerFeatures() {
-        Registry.register(Registry.FEATURE, EndStoneFeature.ID, END_STONE);
+        Registry.register(Registry.FEATURE, EndTotemFeature.ID, END_TOTEM);
     }
 }

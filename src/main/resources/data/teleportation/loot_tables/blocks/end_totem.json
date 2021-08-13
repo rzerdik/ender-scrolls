@@ -6,7 +6,7 @@
             "entries": [
                 {
                     "type": "minecraft:item",
-                    "name": "teleportation:notary_table"
+                    "name": "teleportation:end_totem"
                 }
             ],
             "conditions": [

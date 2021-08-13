@@ -7,6 +7,7 @@ import com.urfriders.teleportation.entity.ModEntities;
 import com.urfriders.teleportation.feature.ModConfiguredFeatures;
 import com.urfriders.teleportation.feature.ModFeatures;
 import com.urfriders.teleportation.item.ModItems;
+import com.urfriders.teleportation.loot.ModLootTables;
 import com.urfriders.teleportation.screen.ModScreens;
 import com.urfriders.teleportation.world.biome.ModBiomeModifications;
 import net.fabricmc.api.ModInitializer;
@@ -23,7 +24,7 @@ public class EnderScrolls implements ModInitializer {
 		ModEntities.registerEntities();
 		ModScreens.registerScreenHandlers();
 		ModCommands.registerCommands();
-
+		ModLootTables.registerLootTables();
 		ModFeatures.registerFeatures();
 		ModConfiguredFeatures.registerConfiguredFeatures();
 		ModBiomeModifications.addFeatures();
