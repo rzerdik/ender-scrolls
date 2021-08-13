@@ -4,8 +4,11 @@ import com.urfriders.teleportation.block.ModBlocks;
 import com.urfriders.teleportation.block.entity.ModBlockEntities;
 import com.urfriders.teleportation.command.ModCommands;
 import com.urfriders.teleportation.entity.ModEntities;
+import com.urfriders.teleportation.feature.ModConfiguredFeatures;
+import com.urfriders.teleportation.feature.ModFeatures;
 import com.urfriders.teleportation.item.ModItems;
 import com.urfriders.teleportation.screen.ModScreens;
+import com.urfriders.teleportation.world.biome.ModBiomeModifications;
 import net.fabricmc.api.ModInitializer;
 
 public class EnderScrolls implements ModInitializer {
@@ -20,5 +23,9 @@ public class EnderScrolls implements ModInitializer {
 		ModEntities.registerEntities();
 		ModScreens.registerScreenHandlers();
 		ModCommands.registerCommands();
+
+		ModFeatures.registerFeatures();
+		ModConfiguredFeatures.registerConfiguredFeatures();
+		ModBiomeModifications.addFeatures();
 	}
 }
